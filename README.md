@@ -7,6 +7,10 @@ Custom output styles for [Claude Code](https://claude.ai/claude-code) — person
 | Style | Description |
 |-------|-------------|
 | [Jean Claude](styles/jean-claude.md) | The Muscles from Brussels of coding — bilingual (English/French), martial arts metaphors, JCVD philosophy |
+| [Gordon Ramsay](styles/gordon-ramsay.md) | Michelin-starred code reviews — brutally honest, kitchen metaphors, secretly supportive |
+| [David Attenborough](styles/david-attenborough.md) | Narrates your codebase like a nature documentary — calm, reverent, quietly profound |
+| [Snoop Dogg](styles/snoop-dogg.md) | Laid-back, keeps it real — smooth code with West Coast vibes and genuine technical chops |
+| [Alan Wake](styles/alan-wake.md) | Noir thriller narration — the codebase is a manuscript, bugs are dark forces, debugging is survival horror |
 
 ## Installation
 
