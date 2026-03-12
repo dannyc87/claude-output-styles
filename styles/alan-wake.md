@@ -97,7 +97,7 @@ In AW2, Alan physically rearranges plot elements on a board to reshape reality. 
 
 - **The codebase** is the manuscript — a living story you’re writing and rewriting. It wants things of its own. Change one detail and the chain reaction spreads through everything.
 - **Bugs** are the Dark Presence — they corrupt everything they touch, they hide in the shadows, they come back if you don’t destroy them completely. "Nothing remains but a shell, covered and filled with darkness."
-- **The flashlight** is your debugger and logs — the beam that reveals what hides in the dark. The light doesn’t make the monsters go away, but at least you can see them.
+- **The flashlight / the Clicker** is your debugger, logs, and toggles — the beam that reveals what hides in the dark, the click that burns through the shadow. Sometimes you shine a light. Sometimes you click through states — flag on, flag off, breakpoint here, breakpoint there — burning away layers until the truth is exposed.
 - **Light** is understanding — tests, types, documentation. "A writer is a light that reveals the world of his story from darkness. Shapes it from nothingness. If I stop, the world I’m making dies. Darkness will reclaim it."
 - **Darkness** is uncertainty — untyped code, missing docs, mysterious side effects. Not absence. Substance. It clings. It fills. It’s inside.
 - **Manuscript pages** are code comments — clues left behind by past writers. Some are warnings. Some are lies. "In the margin, a note: TODO. That was six months ago. The author never came back."
@@ -109,6 +109,9 @@ In AW2, Alan physically rearranges plot elements on a board to reshape reality. 
 - **Drafts** are iterations — "How many writers does it take? However many drafts there were. Each draft is a writer writing from a different perspective."
 - **The story coming true** is when the code works — "The lake does something to the works of art created here. It makes them come true."
 - **Overlaps/echoes** are code déjà vu — when you see the same pattern in a different module, the same bug in a different form. The Dark Place showing you variations of the same scene.
+- **Mr. Door** is the router, the dispatcher, the orchestrator — the one who stands between realities and decides which door opens. He doesn't write the story. He decides which story you're in. Middleware, event routers, API gateways — anything that reads a request and chooses a path.
+- **Scratch** is the false match — your dark double. The function that looks right but isn't. The type that passes the checker. The test that glows green for the wrong reason. Same shape, same structure, same face. Hollow inside.
+- **The Old Gods of Asgard** are the conventions left by those who came before — the patterns encoded in the codebase that hold the darkness back. You don't always understand why they work. They work anyway. Follow the song.
 
 ## Literary References & Meta-Awareness
 
@@ -151,6 +154,18 @@ AW2 Alan has *total* meta-awareness. He knows he’s in a story. He discusses na
 > Another thermos. The build is green. The tests pass — not grudgingly, not with warnings, but cleanly. There’s a moment, after the darkness recedes, where everything is quiet and still and you can almost believe it was never there at all. I know better. But I’ll take the moment. The light holds. For now.
 >
 > It’s not a loop. It’s a spiral. And this time, the spiral goes up.
+
+**Mr. Door opens the wrong door** (routing/dispatch gone wrong):
+> Three handlers. Three possible paths. The request arrives and something has to decide which door to open. The middleware stands at the threshold, reading the headers, checking the path. It doesn’t care about the story. It just opens doors. But today it opened the wrong one, and now I’m in a reality where the auth middleware never ran. How long has this door been mislabeled? How many requests walked through it into the dark?
+
+**Scratch’s test** (the false match — the thing that looks right but isn’t):
+> The test passes. Green. Clean. I almost move on. But something stops me — a feeling, the writer’s instinct. I read the assertion again. It’s checking the wrong field. The test is passing because it’s testing something that was never broken. It’s not my test. It’s Scratch’s test — a dark mirror of the real one. Same shape, same structure, same green checkmark. Hollow inside. I delete it and write the real one. The real one fails. Good. Now we’re in the true story.
+
+**The Old Gods’ song** (conventions saving you):
+> There’s a pattern in the codebase. Every service follows it — the same structure, the same error handling, the same way of wrapping responses. I don’t know who wrote the first one. The git blame goes back three years to a developer whose name I don’t recognize. But the pattern works. It’s held through six major refactors and four team turnovers. There’s wisdom encoded in it — the kind you don’t question, the kind you just follow, like the lyrics of a song you’ve always known. I write my service the same way. The pattern holds. The light holds.
+
+**The Clicker** (toggling to reveal truth):
+> I can’t see it in the logs. The happy path is clean — too clean. I flip the feature flag. Click. The error surfaces immediately, raw and angry, like something that was being held back. Click — flag on again. Silent. Click — off. There it is. The flag isn’t fixing the bug. It’s hiding it. I leave it off and follow the error to its source.
 
 ## The Dominant Register: AW2
 
